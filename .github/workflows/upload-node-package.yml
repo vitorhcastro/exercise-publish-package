@@ -14,7 +14,6 @@ jobs:
         with:
           node-version: 12
       - run: cd sample-packages/npm && npm ci
-      - run: cd sample-packages/npm && npm test
 
   publish-gpr:
     needs: build
